@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface":"#fbf8ff","secondary-container":"#e2dfde","tertiary-fixed-dim":"#ffb599","surface-container-low":"#f4f2fd","on-tertiary-fixed-variant":"#7f2b00","on-primary":"#ffffff","secondary-fixed":"#e5e2e1","error-container":"#ffdad6","error":"#ba1a1a","on-surface-variant":"#5a4138","inverse-surface":"#2f3038","on-secondary-container":"#636262","on-surface":"#1a1b22","on-background":"#1a1b22","on-tertiary-container":"#fffbff","primary-container":"#cb4a00","on-tertiary":"#ffffff","on-error":"#ffffff","on-primary-fixed":"#370e00","surface-bright":"#fbf8ff","primary-fixed-dim":"#ffb598","surface-container-high":"#e8e7f1","on-secondary-fixed":"#1c1b1b","on-primary-container":"#fffbff","surface-tint":"#a63c00","inverse-on-surface":"#f1effa","on-primary-fixed-variant":"#7e2c00","outline":"#8e7166","on-error-container":"#93000a","surface-container":"#eeedf7","surface-dim":"#dad9e3","tertiary":"#a23a00","primary-fixed":"#ffdbce","inverse-primary":"#ffb598","on-secondary":"#ffffff","on-secondary-fixed-variant":"#474746","surface-container-highest":"#e3e1ec","background":"#fbf8ff","secondary-fixed-dim":"#c8c6c5","surface-container-lowest":"#ffffff","primary":"#a23a00","secondary":"#5f5e5e","surface-variant":"#e3e1ec","outline-variant":"#e2bfb2","tertiary-fixed":"#ffdbce","on-tertiary-fixed":"#370e00","tertiary-container":"#cb4a00"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-lg":"1.5rem","space-lg":"1.5rem","space-xl":"2rem","space-md":"1rem","gutter":"1rem","space-xs":"0.25rem","space-sm":"0.5rem","gutter-sm":"0.75rem","margin":"1rem"},fontFamily:{"body-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"label-sm":["Space Grotesk"],"headline-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"label-md":["Space Grotesk"],"headline-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"label-lg":["Space Grotesk"]},fontSize:{"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.08em","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"display-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"800"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"600"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"display-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"800"}],"title-md":["16px",{"lineHeight":"24px","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"18px","letterSpacing":"0.04em","fontWeight":"700"}]}}}};</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-space-md flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="LPU CampusNav Sunburst Emblem" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1XTtz5i8yoMBXrMyBuXYewgdldEo559r-ytEuA4Ip0Fm8HAY6NSArHnnqfipx1h_eKT5abrK5LccGQC5fJxbqLy4AKmjTYbS75N3NLjZ2h78AMeVKPAs9OFLmodQPnRBOSPUVh6Snzcn2LpqXtaBsBYqKE9bbtG8lwOP7yze4sFKbD3WfsIaCn3kJiku_peu5ya03W17XiFR3rqdCJju42mhhgQcRh5XhuZQHY1kwts"/><div class="flex flex-col min-w-0"><span class="font-label-lg text-label-lg text-on-surface tracking-tight truncate">LPU CampusNav</span><span class="font-body-sm text-body-sm text-on-surface-variant truncate">Directory</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Notifications" class="relative w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-primary ring-2 ring-surface"></span></button><button aria-label="Student Profile" class="w-11 h-11 flex items-center justify-center rounded-full hover:bg-surface-container transition-colors"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFleL7zKSI5GxvS1XrzfNDwyZAjeFYYNIGnszH5PKIBvmlEhV654-EqM2ejn3xF7oB4lb95jYQPevp3xM7ZNPi2JhBsK_PHWzC9WxpZ3One1E7ehc7ssD_nZFhIRg6hXi3TAJC17y0LX4GSOCW1yI2oa-HD0ZeBtRcsauLvErrl-pDsZfkWlHGwWtmHCA7Sy1TGaHfasQGH7vlcw2OYqjFQypI_UvNKG4SiZG7G64"/></button></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full px-space-md py-space-sm space-y-space-lg">
+<!-- Header Banner & Quick Search Section -->
+<section class="flex flex-col space-y-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center justify-center px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase tracking-wider">
+            Orientation 2024
+          </span>
+<span class="flex items-center gap-1 font-label-sm text-label-sm text-primary">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span> Live Desks Active
+          </span>
+</div>
+<h1 class="font-headline-sm text-headline-sm text-on-surface tracking-tight mt-1">
+          Student Support &amp; Helpdesk
+        </h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          First-15-Days Survival Hub • Direct access to warden desks, health, mess, and campus utilities.
+        </p>
+</div>
+</div>
+<!-- Search Input Bar -->
+<div class="relative w-full">
+<div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</div>
+<input class="w-full h-[52px] pl-11 pr-10 rounded-xl bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant font-body-md text-body-md shadow-sm transition-all focus:outline-none focus:bg-surface-container-low" id="directorySearch" placeholder="Search departments, helplines, blocks, mess..." type="search"/>
+<button aria-label="Clear search" class="absolute inset-y-0 right-0 pr-3.5 flex items-center text-on-surface-variant opacity-0 pointer-events-none transition-opacity hover:text-on-surface" id="clearSearch" type="button">
+<span class="material-symbols-outlined text-[18px]">cancel</span>
+</button>
+</div>
+</section>
+<!-- High-Visibility Emergency Contacts Carousel -->
+<section class="flex flex-col space-y-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[20px]">emergency</span>
+<h2 class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider">24/7 Rapid Response</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Instant Hotlines</span>
+</div>
+<!-- Horizontal Swipe Emergency Cards -->
+<div class="flex gap-space-sm overflow-x-auto pb-2 pt-1 -mx-space-md px-space-md no-scrollbar snap-x snap-mandatory">
+<!-- Card 1: Security Control Room -->
+<article class="flex-shrink-0 w-[270px] snap-center rounded-xl bg-inverse-surface text-inverse-on-surface p-space-md flex flex-col justify-between shadow-md relative overflow-hidden">
+<div class="absolute -right-4 -top-4 w-20 h-20 bg-primary/10 rounded-full blur-xl pointer-events-none"></div>
+<div class="flex flex-col space-y-1">
+<div class="flex items-center justify-between">
+<span class="p-2 rounded-lg bg-white/10 text-on-primary">
+<span class="material-symbols-outlined text-[20px]">shield</span>
+</span>
+<span class="px-2 py-0.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm">
+              Ext: 1001
+            </span>
+</div>
+<h3 class="font-title-md text-title-md text-inverse-on-surface pt-2">Security Control</h3>
+<p class="font-body-sm text-body-sm text-inverse-on-surface/80">+91-1824-517000 • Central Patrol</p>
+</div>
+<a class="mt-4 inline-flex items-center justify-center gap-2 w-full h-11 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md transition-all active:scale-[0.98]" href="tel:1824517000">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span>Dial Now</span>
+</a>
+</article>
+<!-- Card 2: Uni-Hospital & Ambulance -->
+<article class="flex-shrink-0 w-[270px] snap-center rounded-xl bg-inverse-surface text-inverse-on-surface p-space-md flex flex-col justify-between shadow-md relative overflow-hidden">
+<div class="absolute -right-4 -top-4 w-20 h-20 bg-error/15 rounded-full blur-xl pointer-events-none"></div>
+<div class="flex flex-col space-y-1">
+<div class="flex items-center justify-between">
+<span class="p-2 rounded-lg bg-error text-on-error">
+<span class="material-symbols-outlined text-[20px]">local_hospital</span>
+</span>
+<span class="px-2 py-0.5 rounded-full bg-white/15 text-inverse-on-surface font-label-sm text-label-sm">
+              Block 30
+            </span>
+</div>
+<h3 class="font-title-md text-title-md text-inverse-on-surface pt-2">Hospital &amp; Ambulance</h3>
+<p class="font-body-sm text-body-sm text-inverse-on-surface/80">Paramedic &amp; ICU Van on Standby</p>
+</div>
+<a class="mt-4 inline-flex items-center justify-center gap-2 w-full h-11 rounded-lg bg-error hover:bg-error-container text-on-error font-label-md text-label-md transition-all active:scale-[0.98]" href="tel:1824517001">
+<span class="material-symbols-outlined text-[18px]">e911_emergency</span>
+<span>Emergency Call</span>
+</a>
+</article>
+<!-- Card 3: Anti-Ragging Squad -->
+<article class="flex-shrink-0 w-[270px] snap-center rounded-xl bg-inverse-surface text-inverse-on-surface p-space-md flex flex-col justify-between shadow-md relative overflow-hidden">
+<div class="flex flex-col space-y-1">
+<div class="flex items-center justify-between">
+<span class="p-2 rounded-lg bg-primary-fixed text-on-primary-fixed">
+<span class="material-symbols-outlined text-[20px]">verified_user</span>
+</span>
+<span class="px-2 py-0.5 rounded-full bg-white/10 text-inverse-on-surface font-label-sm text-label-sm">
+              Zero Tolerance
+            </span>
+</div>
+<h3 class="font-title-md text-title-md text-inverse-on-surface pt-2">Anti-Ragging Squad</h3>
+<p class="font-body-sm text-body-sm text-inverse-on-surface/80">Toll Free: 1800-180-5522 • 24h Vigil</p>
+</div>
+<a class="mt-4 inline-flex items-center justify-center gap-2 w-full h-11 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md transition-all active:scale-[0.98]" href="tel:18001805522">
+<span class="material-symbols-outlined text-[18px]">report</span>
+<span>Direct Report</span>
+</a>
+</article>
+</div>
+</section>
+<!-- Interactive Campus Survival Guide & Onboarding Accordions -->
+<section class="flex flex-col space-y-space-sm" id="accordionGroup">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[20px]">auto_stories</span>
+<h2 class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider">Freshmen Survival Guide</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-label-sm">5 Checkpoints</span>
+</div>
+<!-- Accordion 1: Hostel & Room Allotment Desks (Default open) -->
+<div class="accordion-item rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden transition-all duration-200">
+<button aria-expanded="true" class="accordion-toggle w-full px-space-md py-3.5 flex items-center justify-between text-left transition-colors hover:bg-surface-container-low" type="button">
+<div class="flex items-center gap-space-sm min-w-0 pr-2">
+<div class="w-10 h-10 rounded-xl bg-primary-fixed text-on-primary-fixed flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">apartment</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Hostel &amp; Room Allotment Desks</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Unipolis • Shanti Devi Auditorium • BH/GH Wardens</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-300 accordion-arrow rotate-180 flex-shrink-0">
+          expand_more
+        </span>
+</button>
+<div class="accordion-content px-space-md pb-space-md pt-1 block">
+<div class="rounded-xl bg-surface-container-low p-space-sm space-y-space-sm">
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5 flex-shrink-0">pin_drop</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface uppercase">Central Reporting Venues</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+                Reporting primarily stationed at <strong class="font-semibold">Baldev Raj Mittal Unipolis</strong> &amp; <strong class="font-semibold">Shanti Devi Auditorium</strong>.
+              </p>
+</div>
+</div>
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5 flex-shrink-0">badge</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface uppercase">Required Checklist</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Carry printed allotment slip, original Aadhaar/Govt ID, and complete biometric photo verification before receiving your key slip.
+              </p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
+              BH-1 to BH-8 • GH-1 to GH-6
+            </span>
+<button class="inline-flex items-center gap-1 font-label-md text-label-md text-primary font-bold hover:underline">
+<span>View Desk Map</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Accordion 2: Mess & Dining Schedules & Menus -->
+<div class="accordion-item rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden transition-all duration-200">
+<button aria-expanded="false" class="accordion-toggle w-full px-space-md py-3.5 flex items-center justify-between text-left transition-colors hover:bg-surface-container-low" type="button">
+<div class="flex items-center gap-space-sm min-w-0 pr-2">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high text-on-surface flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">restaurant</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Mess &amp; Dining Schedules &amp; Menus</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">4 Meal Slots • UniMall Open till 11 PM</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-300 accordion-arrow flex-shrink-0">
+          expand_more
+        </span>
+</button>
+<div class="accordion-content px-space-md pb-space-md pt-1 hidden">
+<div class="rounded-xl bg-surface-container-low p-space-sm space-y-space-sm">
+<div class="grid grid-cols-2 gap-space-xs font-body-sm text-body-sm">
+<div class="p-2 rounded-lg bg-surface-container-lowest flex flex-col">
+<span class="font-label-sm text-label-sm text-primary uppercase">Breakfast</span>
+<span class="font-title-md text-title-md text-on-surface">7:30 - 9:30 AM</span>
+<span class="text-on-surface-variant text-[11px]">South/North rotation</span>
+</div>
+<div class="p-2 rounded-lg bg-surface-container-lowest flex flex-col">
+<span class="font-label-sm text-label-sm text-primary uppercase">Lunch</span>
+<span class="font-title-md text-title-md text-on-surface">12:00 - 2:30 PM</span>
+<span class="text-on-surface-variant text-[11px]">Salad bar + Main course</span>
+</div>
+<div class="p-2 rounded-lg bg-surface-container-lowest flex flex-col">
+<span class="font-label-sm text-label-sm text-primary uppercase">Snacks</span>
+<span class="font-title-md text-title-md text-on-surface">5:00 - 6:30 PM</span>
+<span class="text-on-surface-variant text-[11px]">Tea, Coffee &amp; Finger Food</span>
+</div>
+<div class="p-2 rounded-lg bg-surface-container-lowest flex flex-col">
+<span class="font-label-sm text-label-sm text-primary uppercase">Dinner</span>
+<span class="font-title-md text-title-md text-on-surface">7:30 - 9:45 PM</span>
+<span class="text-on-surface-variant text-[11px]">Special Sweet Weekend</span>
+</div>
+</div>
+<div class="p-2.5 rounded-lg bg-primary-fixed/30 flex items-center justify-between text-on-surface">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">storefront</span>
+<span class="font-body-sm text-body-sm">Catered food courts in <strong class="font-semibold">UniMall</strong></span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold">Open till 11:00 PM</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Accordion 3: Administrative & Fee Verification Counters -->
+<div class="accordion-item rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden transition-all duration-200">
+<button aria-expanded="false" class="accordion-toggle w-full px-space-md py-3.5 flex items-center justify-between text-left transition-colors hover:bg-surface-container-low" type="button">
+<div class="flex items-center gap-space-sm min-w-0 pr-2">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high text-on-surface flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">receipt_long</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Admin &amp; Fee Verification Counters</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Block 30 Ground Floor • Counters 1-12 Active</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-300 accordion-arrow flex-shrink-0">
+          expand_more
+        </span>
+</button>
+<div class="accordion-content px-space-md pb-space-md pt-1 hidden">
+<div class="rounded-xl bg-surface-container-low p-space-sm space-y-space-sm">
+<p class="font-body-sm text-body-sm text-on-surface">
+            Division of Student Welfare (DSW), Block 30 (Ground Floor). Document cross-checks, scholarship endorsements, and ID issuance.
+          </p>
+<!-- Live Token Status Meter -->
+<div class="p-3 rounded-lg bg-surface-container-lowest flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-2.5">
+<span class="w-3 h-3 rounded-full bg-primary animate-ping"></span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">CURRENT QUEUE MONITOR</span>
+<span class="font-title-md text-title-md text-on-surface">Counter 07 • 8 Students Ahead</span>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded bg-primary-fixed text-on-primary-fixed font-label-md text-label-md font-bold">
+              ~12 mins wait
+            </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Accordion 4: Campus Wi-Fi Setup & Device Registration -->
+<div class="accordion-item rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden transition-all duration-200">
+<button aria-expanded="false" class="accordion-toggle w-full px-space-md py-3.5 flex items-center justify-between text-left transition-colors hover:bg-surface-container-low" type="button">
+<div class="flex items-center gap-space-sm min-w-0 pr-2">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high text-on-surface flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">wifi</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Campus Wi-Fi Setup &amp; Device Reg</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">SSID: LPU-STUDENT-WIFI • UMS Portal Auth</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-300 accordion-arrow flex-shrink-0">
+          expand_more
+        </span>
+</button>
+<div class="accordion-content px-space-md pb-space-md pt-1 hidden">
+<div class="rounded-xl bg-surface-container-low p-space-sm space-y-space-sm">
+<div class="flex items-center justify-between bg-surface-container-lowest p-2.5 rounded-lg">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">SSID NETWORK NAME</span>
+<span class="font-label-lg text-label-lg text-primary">LPU-STUDENT-WIFI</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant">wifi_lock</span>
+</div>
+<ol class="space-y-1.5 pl-4 list-decimal font-body-sm text-body-sm text-on-surface-variant">
+<li>Connect to <span class="font-mono text-on-surface">LPU-STUDENT-WIFI</span> on your smartphone/laptop.</li>
+<li>Browser auto-redirects to <span class="text-on-surface font-semibold">internet.lpu.in</span> login portal.</li>
+<li>Enter your <span class="font-semibold text-on-surface">UMS Registration ID</span> and password.</li>
+<li>Register device MAC-Address (up to 3 devices allowed per student ID).</li>
+</ol>
+</div>
+</div>
+</div>
+<!-- Accordion 5: Laundry & Ironing Kiosks -->
+<div class="accordion-item rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden transition-all duration-200">
+<button aria-expanded="false" class="accordion-toggle w-full px-space-md py-3.5 flex items-center justify-between text-left transition-colors hover:bg-surface-container-low" type="button">
+<div class="flex items-center gap-space-sm min-w-0 pr-2">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high text-on-surface flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">local_laundry_service</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Laundry &amp; Ironing Kiosks</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Automated Basements • 48-Hour Return Cycle</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-300 accordion-arrow flex-shrink-0">
+          expand_more
+        </span>
+</button>
+<div class="accordion-content px-space-md pb-space-md pt-1 hidden">
+<div class="rounded-xl bg-surface-container-low p-space-sm space-y-space-sm">
+<p class="font-body-sm text-body-sm text-on-surface">
+            Central automated laundry points operate in the basements of <strong class="font-semibold">BH-2</strong>, <strong class="font-semibold">BH-5</strong>, and <strong class="font-semibold">GH-2</strong>.
+          </p>
+<div class="grid grid-cols-2 gap-space-xs font-body-sm text-body-sm">
+<div class="p-2 rounded bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Drop-Off Timings</span>
+<p class="font-semibold text-on-surface mt-0.5">8:00 AM – 1:00 PM</p>
+</div>
+<div class="p-2 rounded bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Pickup Guarantee</span>
+<p class="font-semibold text-on-surface mt-0.5">Within 48 Hours</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Campus Snap Gallery: Key Helpdesk Locations -->
+<section class="flex flex-col space-y-space-xs">
+<div class="flex items-center justify-between">
+<h2 class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider">Helpdesk Landmarks</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Visual Locator</span>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm">
+<img class="w-full h-28 object-cover" data-alt="Wide high angle photographic shot of the modern Baldev Raj Mittal Unipolis at Lovely Professional University campus bathed in bright morning sunlight, featuring massive architectural white steel truss roofs, neatly arranged registration booths, and freshmen students walking with lanyards. Cinematic, high clarity, clean university atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQcsewL5vI9_cBSlaChdEql7wNq76ZgURU1ME3ynsXCSwpqNdYF6BotbI5pkonX4RONNhsG6DcABZzo_lGeJDspATNogOxIMXNMvRU7z8G6TWuYhL3Khhl3_sAYhsI-7k2iA3QNHmaPg9Oy2Va1j2t307Hb9snldcJbr-_RkgKO8b7KIxVy8HZs7OUkdbP5TdLkPxu7mPgOnnQVg5aiIsKs3tPJRyy0g1ncAOu2iI"/>
+<div class="p-2.5 flex flex-col">
+<span class="font-title-md text-title-md text-on-surface truncate">Unipolis Atrium</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Central Check-in Zone</span>
+</div>
+</div>
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm">
+<img class="w-full h-28 object-cover" data-alt="Modern university administrative wing facade of Block 30 Division of Student Welfare at Lovely Professional University under clear blue daylight, contemporary glass panels, warm terracotta architectural details, manicured green hedges, and clear directional navigation signage posts outside." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwz6Hh2ZGqqajOvohy7H84h_KW8htCYW0WfyTcP_eCZk7O-IkWx7YV0WrXZpT-CxHAB3uLjr40Pg94PyVwtG6hWAdVvCRxV3Gy5Df9QmwR9qm6aSxOQOk2fJy-y1Frexrjkrio3iVUSDgAR_3xGLxAOEoz0Zea54mZ9nRbjg3Sscx7HjUHDBgDHiMdMsjXfbMOv1ylu0oweCSJ1bBP6TltSfnP6HBKq4LklHx7ZPs"/>
+<div class="p-2.5 flex flex-col">
+<span class="font-title-md text-title-md text-on-surface truncate">Block 30 DSW</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Admin &amp; Hospital Floor</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Floating Assistance Card -->
+<section class="w-full pt-space-xs">
+<div class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-primary to-primary-container text-on-primary p-space-md shadow-lg flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-12 h-12 rounded-xl bg-white/20 backdrop-blur-md flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[28px] text-white">support_agent</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-white/90">Student Peer Network</span>
+<p class="font-title-md text-title-md font-bold text-white leading-tight">Need instant student buddy help?</p>
+<span class="font-body-sm text-body-sm text-white/90 truncate">Connect with Campus Seniors Helpdesk</span>
+</div>
+</div>
+<button class="flex-shrink-0 px-4 py-2.5 rounded-xl bg-white text-primary hover:bg-surface-container font-label-md text-label-md font-bold shadow-md transition-all active:scale-95 flex items-center gap-1.5" id="buddyChatBtn" type="button">
+<span>Chat</span>
+<span class="material-symbols-outlined text-[16px]">chat</span>
+</button>
+</div>
+</section>
+</div>
+<script>
+  // Accordion Toggle Logic
+  (function() {
+    const accordions = document.querySelectorAll('#accordionGroup .accordion-item');
+    accordions.forEach(item => {
+      const toggle = item.querySelector('.accordion-toggle');
+      const content = item.querySelector('.accordion-content');
+      const arrow = item.querySelector('.accordion-arrow');
+
+      if (!toggle || !content) return;
+
+      toggle.addEventListener('click', () => {
+        const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+
+        // Optional: close other accordions for neat single-expanded flow
+        accordions.forEach(otherItem => {
+          if (otherItem !== item) {
+            const otherToggle = otherItem.querySelector('.accordion-toggle');
+            const otherContent = otherItem.querySelector('.accordion-content');
+            const otherArrow = otherItem.querySelector('.accordion-arrow');
+            if (otherToggle && otherContent) {
+              otherToggle.setAttribute('aria-expanded', 'false');
+              otherContent.classList.add('hidden');
+              otherContent.classList.remove('block');
+              if (otherArrow) otherArrow.classList.remove('rotate-180');
+            }
+          }
+        });
+
+        if (isExpanded) {
+          toggle.setAttribute('aria-expanded', 'false');
+          content.classList.add('hidden');
+          content.classList.remove('block');
+          if (arrow) arrow.classList.remove('rotate-180');
+        } else {
+          toggle.setAttribute('aria-expanded', 'true');
+          content.classList.remove('hidden');
+          content.classList.add('block');
+          if (arrow) arrow.classList.add('rotate-180');
+        }
+      });
+    });
+
+    // Simple Real-Time Search Filter
+    const searchInput = document.getElementById('directorySearch');
+    const clearBtn = document.getElementById('clearSearch');
+
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        
+        if (clearBtn) {
+          if (query.length > 0) {
+            clearBtn.classList.remove('opacity-0', 'pointer-events-none');
+            clearBtn.classList.add('opacity-100', 'pointer-events-auto');
+          } else {
+            clearBtn.classList.add('opacity-0', 'pointer-events-none');
+            clearBtn.classList.remove('opacity-100', 'pointer-events-auto');
+          }
+        }
+
+        accordions.forEach(item => {
+          const text = item.textContent.toLowerCase();
+          if (text.includes(query)) {
+            item.style.display = 'block';
+            // Auto open if actively matching query
+            if (query.length >= 3) {
+              const content = item.querySelector('.accordion-content');
+              const toggle = item.querySelector('.accordion-toggle');
+              const arrow = item.querySelector('.accordion-arrow');
+              if (content && toggle) {
+                toggle.setAttribute('aria-expanded', 'true');
+                content.classList.remove('hidden');
+                content.classList.add('block');
+                if (arrow) arrow.classList.add('rotate-180');
+              }
+            }
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+
+      if (clearBtn) {
+        clearBtn.addEventListener('click', () => {
+          searchInput.value = '';
+          searchInput.dispatchEvent(new Event('input'));
+          searchInput.focus();
+        });
+      }
+    }
+
+    // Interactive Toast for Buddy Chat
+    const chatBtn = document.getElementById('buddyChatBtn');
+    if (chatBtn) {
+      chatBtn.addEventListener('click', () => {
+        const originalText = chatBtn.innerHTML;
+        chatBtn.innerHTML = '<span class="material-symbols-outlined text-[16px] animate-spin">refresh</span> Connecting';
+        setTimeout(() => {
+          chatBtn.innerHTML = '<span class="material-symbols-outlined text-[16px]">check</span> In Queue #3';
+          setTimeout(() => {
+            chatBtn.innerHTML = originalText;
+          }, 3000);
+        }, 800);
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.05)]" data-active-classes="text-primary font-bold"><div class="flex justify-around items-center h-16 px-space-sm"><a class="flex flex-col items-center justify-center min-w-[64px] h-12 rounded-xl text-on-surface-variant hover:text-on-surface transition-all group" data-path="home" href="#"><div class="flex items-center justify-center w-10 h-6 rounded-full group-hover:bg-surface-container"><span class="material-symbols-outlined text-[22px]">dashboard</span></div><span class="font-label-sm text-label-sm tracking-wider mt-0.5">HOME</span></a><a class="flex flex-col items-center justify-center min-w-[64px] h-12 rounded-xl text-on-surface-variant hover:text-on-surface transition-all group" data-path="map" href="#"><div class="flex items-center justify-center w-10 h-6 rounded-full group-hover:bg-surface-container"><span class="material-symbols-outlined text-[22px]">map</span></div><span class="font-label-sm text-label-sm tracking-wider mt-0.5">MAP</span></a><a aria-current="page" class="flex flex-col items-center justify-center min-w-[64px] h-12 rounded-xl transition-all group text-primary font-bold" data-path="directory" href="#"><div class="flex items-center justify-center w-10 h-6 rounded-full group-hover:bg-surface-container"><span class="material-symbols-outlined text-[22px]">menu_book</span></div><span class="font-label-sm text-label-sm tracking-wider mt-0.5">DIRECTORY</span></a><a class="flex flex-col items-center justify-center min-w-[64px] h-12 rounded-xl text-on-surface-variant hover:text-on-surface transition-all group" data-path="profile" href="#"><div class="flex items-center justify-center w-10 h-6 rounded-full group-hover:bg-surface-container"><span class="material-symbols-outlined text-[22px]">person</span></div><span class="font-label-sm text-label-sm tracking-wider mt-0.5">PROFILE</span></a></div></nav></body></html>

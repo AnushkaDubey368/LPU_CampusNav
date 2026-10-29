@@ -1,0 +1,6 @@
+{
+  "name": "Tangerine Transit",
+  "description": "LPU CampusNav - Campus navigation, block finder, timetable routing, and freshmen survival guide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
